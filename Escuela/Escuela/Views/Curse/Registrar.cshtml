@@ -1,0 +1,32 @@
+﻿@model Escuela.Dominio.Course
+@{
+    ViewData["Title"] = "RegistrarCursos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("Registro", "Curse", FormMethod.Post))
+    {
+<h1>Agregar Nuevo Curso</h1>
+
+
+<label><strong>Titulo</strong></label>
+<input asp-for="Title" type="text" />
+<br />
+
+
+<label><strong>Creditos</strong></label>
+<input asp-for="Credits" type="text" />
+<br />
+
+<button type="submit">Enviar </button>
+    }
+
+@Html.ActionLink("Ir a vistas", "Vistas", "Home", new { }, new { @class = "btn btn-success" })
+@Html.ActionLink("Ver los Cursos", "Cursos", new { }, new { @class = "btn btn-success" })
+
+
+
+
+
+

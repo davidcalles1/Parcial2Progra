@@ -1,0 +1,34 @@
+﻿@model Escuela.Dominio.Students
+@{
+    ViewData["Title"] = "RegistroEstudiantes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+@using (Html.BeginForm("Registro", "Students", FormMethod.Post))
+{
+
+    <h1>Agregar Nuevo Estudiante</h1>
+
+    <label><strong>Apellidos</strong></label>
+    <input asp-for="FirstMidName" type="text" />
+    <br />
+
+
+    <label><strong>Nombres</strong></label>
+    <input asp-for="LastName" type="text" />
+    <br />
+
+    <label><strong>Fecha </strong>  </label>
+    <input asp-for="EnrrollmentsDate" type="datetime" />
+
+    <br />
+    <button type="submit">Enviar </button>
+    <br />
+    <br />
+    @Html.ActionLink("Ir a vistas", "Vistas", "Home", new { }, new { @class = "btn btn-success" })
+    @Html.ActionLink("Ver estudiantes", "Students", new { }, new { @class = "btn btn-success" })
+
+}
+
