@@ -86,14 +86,15 @@ namespace Escuela.Controllers
 
         public IActionResult Registrar(Erollement e)
         {
-            Erollement er = new Erollement();
+            Erollement en = new Erollement();
 
-            er.Course = e.Course;
-            er.Student = e.Student;
-            er.CourseID = e.CourseID;
-            er.StudentID = e.StudentID;
+            en.Course = e.Course;
+            en.Student = e.Student;
+            en.CourseID = e.CourseID;
+            en.StudentID = e.StudentID;
+            en.Grade = e.Grade;
 
-            irollements.Insert(er);
+            irollements.Insert(e);
             return Redirect("/Home/Students");
         }
     }

@@ -19,6 +19,9 @@
         <br />
         @Html.DropDownListFor(a => a.StudentID, new SelectList(ViewBag.estadolsitestudents, "Value", "Text"), "Selecciona un Estudiante", new { @class = "form-control" })
         <br />
+        <label for="Grade">Select your Grade[ A, B, C, D]</label>
+        <br />
+        <input type="text" name="Grade" />
         <input type="submit" />
         <br />
         <br />

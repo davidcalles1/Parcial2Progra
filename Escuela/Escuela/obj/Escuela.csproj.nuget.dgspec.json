@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nelso\\OneDrive\\Documentos\\parcialProgra2\\Escuela\\Escuela\\Escuela.csproj": {}
+    "C:\\Users\\nelso\\OneDrive\\Documentos\\GitHub\\Parcial2Progra\\Escuela\\Escuela\\Escuela.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nelso\\OneDrive\\Documentos\\parcialProgra2\\Escuela\\Escuela\\Escuela.csproj": {
+    "C:\\Users\\nelso\\OneDrive\\Documentos\\GitHub\\Parcial2Progra\\Escuela\\Escuela\\Escuela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nelso\\OneDrive\\Documentos\\parcialProgra2\\Escuela\\Escuela\\Escuela.csproj",
+        "projectUniqueName": "C:\\Users\\nelso\\OneDrive\\Documentos\\GitHub\\Parcial2Progra\\Escuela\\Escuela\\Escuela.csproj",
         "projectName": "Escuela",
-        "projectPath": "C:\\Users\\nelso\\OneDrive\\Documentos\\parcialProgra2\\Escuela\\Escuela\\Escuela.csproj",
+        "projectPath": "C:\\Users\\nelso\\OneDrive\\Documentos\\GitHub\\Parcial2Progra\\Escuela\\Escuela\\Escuela.csproj",
         "packagesPath": "C:\\Users\\nelso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nelso\\OneDrive\\Documentos\\parcialProgra2\\Escuela\\Escuela\\obj\\",
+        "outputPath": "C:\\Users\\nelso\\OneDrive\\Documentos\\GitHub\\Parcial2Progra\\Escuela\\Escuela\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nelso\\AppData\\Roaming\\NuGet\\NuGet.Config",

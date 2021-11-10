@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nsOvxAHwraODIm+GO3YBO/GRtPSC2CKu2LOxqzK7lwG4N+smI1bhvPhPsiB1SMBD0adxFY2BtfAl92OwlcL82w==",
+  "dgSpecHash": "jKGvfBkXkSscgq5hyjFH5L34RiPUSQqY5KI9AjkKvZJuFx5pEfp7U/wQI8W41SftKRCiRbLKpRk3TzSbEphrOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nelso\\OneDrive\\Documentos\\parcialProgra2\\Escuela\\Escuela\\Escuela.csproj",
+  "projectFilePath": "C:\\Users\\nelso\\OneDrive\\Documentos\\GitHub\\Parcial2Progra\\Escuela\\Escuela\\Escuela.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nelso\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nelso\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
