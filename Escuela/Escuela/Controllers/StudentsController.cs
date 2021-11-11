@@ -49,14 +49,7 @@ namespace Escuela.Controllers
             return Redirect("/Students/studentsRegistro");
         }
 
-        //public IActionResult actualizar(int StudentId, string LastName, string FirstMidName, string ErollementsDate)
-        //{
-        //    ViewBag.StudentId = StudentId;
-        //    ViewBag.LastName = LastName;
-        //    ViewBag.FirstMidName = FirstMidName;
-        //    ViewBag.ErollementsDate = ErollementsDate;
-        //    return View("Insertar");
-        //}
+       
     }
 
     
